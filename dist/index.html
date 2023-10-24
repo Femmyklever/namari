@@ -1,0 +1,562 @@
+<!doctype html>
+<html lang="en" class="md:scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="output.css" />
+    <script
+      src="https://kit.fontawesome.com/852d17d7ae.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Landig Page</title>
+  </head>
+  <body class="min-h-screen bg-white border-8 border-gray-400 mx-auto">
+    <header
+      class="top-0 bg-banner h-full bg-center bg-local bg-no-repeat overflow-y-hidden bg-contain z-10"
+    >
+      <section
+        class="max-w-6xl mx-auto flex justify-between items-center p-3 mb-10 shadow-md"
+      >
+        <h1 class="text-3xl text-black">NAMARI</h1>
+        <nav
+          class="md:block space-x-4 items-center justify-between hidden text-sm"
+          id="main"
+        >
+          <a href="#home">HOME</a>
+          <a href="#about">ABOUT</a>
+          <a href="#galleri">GALLERY</a>
+          <a href="#services">SERVICES</a>
+          <a href="#testimonials">TESTIMONIALS</a>
+          <a href="#client">CLIENTS</a>
+          <a href="#pricing">PRICING</a>
+        </nav>
+        <nav
+          class="sm:flex sm:justify-self-end md:block hidden text-sm space-x-4 items-center"
+          aria-label="social"
+        >
+          <a href="http://ww.facebook.com"
+            ><i class="fa-brands fa-facebook fa-xl"></i
+          ></a>
+          <a href="http://www.twitter.com"
+            ><i class="fa-brands fa-twitter fa-xl"></i
+          ></a>
+          <a href="http://www/instagram.com"
+            ><i class="fa-brands fa-instagram fa-xl"></i
+          ></a>
+        </nav>
+        <button
+          id="menu-btn"
+          class="text-6xl focus:outline cursor-pointer md:hidden"
+        >
+          &#9776;
+        </button>
+      </section>
+      <section class="max-w-5xl flex flex-col mx-auto p-6 mt-8 gap-8 relative">
+        <h1
+          class="text-6xl font-bold sm:w-1/2 sm:text-left pt-5 mt-8 before:content-[''] before:absolute before:top-0 before:left-0 before:transform before:translate-y-16 before:translate-x-9 before:bg-yellow-400 before:w-7 before:h-1 after:content-[''] after:absolute after:bottom-0 after:left-0 after:transform after:translate-y-0 after:translate-x-9 after:bg-yellow-400 after:w-7 after:h-1"
+        >
+          A FREE AND <br />
+          SIMPLE <br />
+          LANDING PAGE
+        </h1>
+        <p class="text-lg text-slate-500 md:w-2/5 md:text-left mt-4">
+          Namari is a free landing page template you can use for your projects.
+          It is free to use for your personal and commercial projects, enjoy!
+        </p>
+      </section>
+      <div class="mt-10 max-w-5xl mx-auto">
+        <button
+          class="text-sm p-4 text-black md:text-left w-60 font-bold border border-black"
+        >
+          START CREATING TODAY
+        </button>
+      </div>
+
+      <section
+        id="mobile-menu"
+        class="top-0 absolute w-full justify-center bg-slate-400 flex-col text-3xl origin-top animate-open-menu hidden"
+      >
+        <button class="text-4xl self-end px-6">&times;</button>
+        <nav
+          class="min-h-screen px-6 py-6 flex items-center flex-col gap-4 text-white z-30"
+        >
+          <a class="w-full text-center hover:opacity-90" href="#home">HOME</a>
+          <a class="w-full text-center hover:opacity-90" href="#about">ABOUT</a>
+          <a class="w-full text-center hover:opacity-90" href="#galleri"
+            >GALLERY</a
+          >
+          <a class="w-full text-center hover:opacity-90" href="#services"
+            >SERVICES</a
+          >
+          <a class="w-full text-center hover:opacity-90" href="#testimonials"
+            >TESTIMONIALS</a
+          >
+          <a class="w-full text-center hover:opacity-90" href="#client"
+            >CLIENTS</a
+          >
+          <a class="w-full text-center hover:opacity-90" href="#pricing"
+            >PRICING</a
+          >
+        </nav>
+      </section>
+    </header>
+    <!-- About  -->
+    <main class="max-w-6xl mx-auto mt-44 relative z-20 shadow-md bg-white">
+      <section
+        id="about"
+        class="flex md:flex-row flex-col gap-8 md:text-left w-full justify-between items-center scroll-mt-16"
+      >
+        <div class="flex flex-col gap-8 basis-1/2 text-left">
+          <h2
+            class="text-3xl font-bold before:content-['SUCCESS'] before:absolute before:top-0 before:left-0 before:-translate-y-10 before:translate-x-0 before:text-lg before:text-slate-400"
+          >
+            How We Help You To <br />
+            Sell Your Product
+          </h2>
+          <p class="text-sm text-slate-400">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam!
+          </p>
+        </div>
+
+        <div class="flex flex-col gap-8 basis-1/2 text-left">
+          <div>
+            <i class="fa-brands fa-html5 fa-sm"></i>
+          </div>
+          <h2 class="text-2xl font-bold">HTML5 & CSS3</h2>
+          <p class="text-sm text-slate-400">
+            Has ne tritani atomorum conclusionemque, in dolorum volumus
+            cotidieque eum. At vis choro neglegentur iudico
+          </p>
+        </div>
+
+        <div class="flex flex-col gap-8 basis-1/2 text-left">
+          <div>
+            <i class="fa-solid fa-bolt fa-sm"></i>
+          </div>
+          <h2 class="text-2xl font-bold">Easy to Use</h2>
+          <p class="text-sm text-slate-400">
+            Cu vero ipsum vim, doctus facilisi sea in. Eam ex falli honestatis
+            repudiandae, sit detracto mediocrem disputationi
+          </p>
+        </div>
+      </section>
+
+      <section
+        class="flex md:flex-row flex-col gap-8 md:text-left w-full justify-between items-center mb-16"
+      >
+        <div class="flex-col gap-8 flex basis-1/2 text-left">
+          <h2 class="hidden text-4xl font-bold">
+            How We Help You To <br />
+            Sell Your Product
+          </h2>
+          <p class="hidden text-sm text-slate-400">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam!
+          </p>
+        </div>
+
+        <div class="flex flex-col gap-8 basis-1/2 text-left">
+          <div></div>
+          <h2 class="text-2xl font-bold">Fully Responsive</h2>
+          <p class="text-sm text-slate-400">
+            Id porro tritani recusabo usu, eum intellegam consequuntur et. Fugit
+            debet ea sit, an pro nemore vivendum
+          </p>
+        </div>
+
+        <div class="flex flex-col gap-8 basis-1/2 text-left">
+          <div></div>
+          <h2 class="text-2xl font-bold">Parallax Effect</h2>
+          <p class="text-sm text-slate-400">
+            Id porro tritani recusabo usu, eum intellegam consequuntur et. Fugit
+            debet ea sit, an pro nemore vivendum
+          </p>
+        </div>
+      </section>
+      <!-- Gallery -->
+      <section
+        id="galleri"
+        class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10 widescreen:section-min-height tallscreen:section-min-height scroll-mt-16"
+      >
+        <div>
+          <img src="./img/gallery-image-1.jpg" alt="" />
+        </div>
+        <div>
+          <img src="./img/gallery-image-2.jpg" alt="" />
+        </div>
+        <div>
+          <img src="./img/gallery-image-3.jpg" alt="" />
+        </div>
+        <div>
+          <img src="./img/gallery-image-4.jpg" alt="" />
+        </div>
+        <div>
+          <img src="./img/gallery-image-5.jpg" alt="" />
+        </div>
+        <div>
+          <img src="./img/gallery-image-6.jpg" alt="" />
+        </div>
+      </section>
+      <!-- Services -->
+      <section
+        id="services"
+        class="grid md:grid-cols-3 grid-cols-1 gap-8 relative mt-16 widescreen:section-min-height tallscreen:section-min-height scroll-mt-16"
+      >
+        <div class="max-h-fit relative">
+          <p
+            class="space-y-6 p-4 text-xl text-left before:content-['\2033'] before:absolute before:top-0 before:left-0 before:transform before:-translate-y-5 before:translate-x-5 before:text-3xl after:content-['\2033'] after:absolute after:bottom-0 after:right-0 after:transform after:translate-y-0 after:translate-x-0 after:text-3xl"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua
+          </p>
+        </div>
+
+        <div class="flex flex-col gap-8 text-left relative min-h-fit">
+          <h2
+            class="text-3xl p-2 font-bold before:content-['Believing'] before:absolute before:top-0 before:left-0 before:transform before:-translate-y-8 before:translate-x-6 before:text-xl before:text-slate-400 after:content-[''] after:absolute after:top-0 after:left-0 after:transform after:translate-y-24 after:translate-x-6 after:text-3xl after:w-12 after:h-2 after:bg-yellow-300"
+          >
+            Focusing On What <br />
+            Matters Most
+          </h2>
+          <p class="text-xl text-left text-slate-400">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam!
+          </p>
+
+          <p class="sm:text-sm md:text-xl text-left text-slate-400">
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+            quae ab illo inventore veritatis et quasi architecto beatae vitae
+            dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+            aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+            eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est,
+            qui dolorem ipsum quia dolor sit amet!
+          </p>
+          <button
+            class="ml-3 p-2 text-sm mb-4 font-bold border border-black hover:bg-black hover:text-white w-36"
+          >
+            WATCH VIDEO
+          </button>
+        </div>
+        <div class="max-h-fit">
+          <img src="./img/dancer.jpg" alt="" />
+        </div>
+      </section>
+
+      <section class="flex flex-col gap-8 mt-8 text-center p-6 mb-10">
+        <h2 class="text-center md:text-2xl sm:text-xl text-xs text-slate-400">
+          FEEDBACK
+        </h2>
+        <h1 class="md:text-3xl sm:text-2xl text-xs text-center font-bold">
+          What our customers are saying
+        </h1>
+        <div class="w-10 h-2 bg-yellow-600 mx-auto text-center"></div>
+      </section>
+      <!-- Testimonials -->
+      <section
+        id="testimonials"
+        class="max-w-6xl mx-auto grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4 widescreen:section-min-height tallscreen:section-min-height scroll-mt-16"
+      >
+        <div class="flex flex-col gap-4 mx-auto justify-center">
+          <img
+            class="rounded-full w-36 h-36 mx-auto text-center"
+            src="./img/user-1.jpg"
+            alt=""
+          />
+          <p class="text-left md:text-xl sm:xl text-xs text-slate-400">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua
+          </p>
+          <div class="w-10 h-2 bg-yellow-600 mx-auto text-center"></div>
+          <p class="md:text-left md:text-xl sm:text-xl text-xs text-center">
+            John Doe - Happy Customer
+          </p>
+        </div>
+
+        <div class="flex flex-col gap-4 mx-auto justify-center">
+          <img
+            class="rounded-full w-36 h-36 mx-auto text-center"
+            src="./img/user-2.jpg"
+            alt=""
+          />
+          <p class="text-left md:text-xl sm:xl text-xs text-slate-400">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua
+          </p>
+          <div class="w-10 h-2 bg-yellow-600 mx-auto text-center"></div>
+          <p class="md:text-left md:text-xl sm:text-xl text-xs text-center">
+            Roslyn Doe - Happy Customer
+          </p>
+        </div>
+
+        <div class="flex flex-col gap-4 mx-auto justify-center">
+          <img
+            class="rounded-full w-36 h-36 mx-auto text-center"
+            src="./img/user-3.jpg"
+            alt=""
+          />
+          <p class="text-left md:text-xl sm:xl text-xs text-slate-400">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua
+          </p>
+          <div class="w-10 h-2 bg-yellow-600 mx-auto text-center"></div>
+          <p class="md:text-left md:text-xl sm:text-xl text-center text-xs">
+            Thomas Doe - Happy Customer
+          </p>
+        </div>
+      </section>
+      <!-- Clients -->
+      <section
+        id="client"
+        class="max-w-6xl mx-auto grid md:grid-cols-3 sm:grid-cols-1 gap-8 mt-10 widescreen:section-min-height tallscreen:section-min-height scroll-mt-16"
+      >
+        <div class="flex flex-col p-4 mx-auto gap-3">
+          <h3 class="text-slate-400 text-left">TRUST</h3>
+          <h2 class="text-left text-3xl font-bold">
+            Company who use <br />
+            our services
+          </h2>
+
+          <div class="w-10 h-2 bg-yellow-600 ml-10"></div>
+          <p class="text-left text-lg text-slate-400">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam!
+          </p>
+        </div>
+        <div
+          class="md:col-span-2 mx-auto items-center grid md:grid-cols-3 sm:grid-cols-2 gap-8"
+        >
+          <a
+            class="relative w-52 h-32 opacity-90 hover:0 hover:bg-black hover:text-white"
+            href="#home"
+          >
+            <img src="./img/company-logo1.png" alt="" />
+            <span
+              class="absolute top-0 translate-y-14 translate-x-20 font-bold opacity-0 hover:opacity-90 text-2xl w-52 h-8"
+              >TREE</span
+            >
+          </a>
+          <a
+            class="relative w-52 h-32 opacity-90 hover:0 hover:bg-black hover:text-white"
+            href="#home"
+          >
+            <img src="./img/company-logo2.png" alt="" />
+            <span
+              class="absolute top-0 translate-y-14 translate-x-20 font-bold opacity-0 hover:opacity-90 text-2xl w-52 h-8"
+              >TREE</span
+            >
+          </a>
+          <a
+            class="relative w-52 h-32 opacity-90 hover:0 hover:bg-black hover:text-white"
+            href="#home"
+          >
+            <img src="./img/company-logo3.png" alt="" />
+            <span
+              class="absolute top-0 translate-y-14 translate-x-20 font-bold opacity-0 hover:opacity-90 text-2xl w-52 h-8"
+              >TREE</span
+            >
+          </a>
+          <a
+            class="relative w-52 h-32 opacity-90 hover:0 hover:bg-black hover:text-white"
+            href="#home"
+          >
+            <img src="./img/company-logo4.png" alt="" />
+            <span
+              class="absolute top-0 translate-y-14 translate-x-20 font-bold opacity-0 hover:opacity-90 text-2xl w-52 h-8"
+              >TREE</span
+            >
+          </a>
+          <a
+            class="relative w-52 h-32 opacity-90 hover:0 hover:bg-black hover:text-white"
+            href="#home"
+          >
+            <img src="./img/company-logo5.png" alt="" />
+            <span
+              class="absolute top-0 translate-y-14 translate-x-20 font-bold opacity-0 hover:opacity-90 text-2xl w-52 h-8"
+              >TREE</span
+            >
+          </a>
+          <a
+            class="relative w-52 h-32 opacity-90 hover:0 hover:bg-black hover:text-white"
+            href="#home"
+          >
+            <img src="./img/company-logo6.png" alt="" />
+            <span
+              class="absolute top-0 translate-y-14 translate-x-20 font-bold opacity-0 hover:opacity-90 text-2xl w-52 h-8"
+              >TREE</span
+            >
+          </a>
+          <a
+            class="relative w-52 h-32 opacity-90 hover:0 hover:bg-black hover:text-white"
+            href="#home"
+          >
+            <img src="./img/company-logo7.png" alt="" />
+            <span
+              class="absolute top-0 translate-y-14 translate-x-20 font-bold opacity-0 hover:opacity-90 text-2xl w-52 h-8"
+              >TREE</span
+            >
+          </a>
+          <a
+            class="relative w-52 h-32 opacity-90 hover:0 hover:bg-black hover:text-white"
+            href="#home"
+          >
+            <img src="./img/company-logo8.png" alt="" />
+            <span
+              class="absolute top-0 translate-y-14 translate-x-20 font-bold opacity-0 hover:opacity-90 text-2xl w-52 h-8"
+              >TREE</span
+            >
+          </a>
+          <a
+            class="relative w-52 h-32 opacity-90 hover:0 hover:bg-black hover:text-white"
+            href="#home"
+          >
+            <img src="./img/company-logo9.png" alt="" />
+            <span
+              class="absolute top-0 translate-y-14 translate-x-20 font-bold opacity-0 hover:opacity-90 text-2xl w-52 h-8"
+              >TREE</span
+            >
+          </a>
+        </div>
+      </section>
+      <!-- Pricing -->
+      <section
+        id="pricing"
+        class="flex flex-col gap-8 mt-8 text-center p-6 mb-24 bg-gray-400 widescreen:section-min-height tallscreen:section-min-height scroll-mt-16"
+      >
+        <h2 class="text-center md:text-2xl sm:text-xl text-xs">YOUR CHOICE</h2>
+        <h1 class="md:text-3xl sm:text-2xl text-xs text-center font-bold">
+          What our customers are saying
+        </h1>
+        <div class="w-10 h-2 bg-yellow-600 mx-auto text-center"></div>
+        <div class="grid md:grid-cols-3 gap-8 p-4 sm:grid-cols-2 grid-cols-1">
+          <div
+            class="flex flex-col gap-8 shadow-md bg-white hover:border-8 hover:border-yellow-400"
+          >
+            <div>
+              <h3 class="text-center text-2xl p-4 font-bold">PERSONAL</h3>
+              <p class="text-sm text-slate-400 text-center italic">
+                The standard version
+              </p>
+              <div class="flex flex-col bg-gray-400 mt-5 p-6 relative">
+                <h3 class="absolute top-2 left-32 tex-2xl">$</h3>
+                <h1 class="font-bold text-5xl text-center">19</h1>
+                <p class="text-black text-left text-sm mt-10">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                </p>
+              </div>
+              <div class="divide-y divide-slate-200">
+                <div class="p-4 bg-white text-xl">5 Downloads</div>
+                <div class="p-4 bg-white text-xl">2 Extensions</div>
+                <div class="p-4 bg-white text-xl">Tutorials</div>
+                <div class="p-4 bg-white text-xl">Forum Support</div>
+                <div class="p-4 bg-white text-xl">1 year free updates</div>
+              </div>
+              <button
+                class="p-2 text-center w-36 h-10 h border border-black hover:border-yellow-200 mb-7"
+              >
+                BUY TODAY
+              </button>
+            </div>
+          </div>
+
+          <div
+            class="flex flex-col gap-8 shadow-md bg-white hover:border-8 hover:border-yellow-400"
+          >
+            <div>
+              <h3 class="text-center text-2xl p-4 font-bold">STUDENT</h3>
+              <p class="text-sm text-slate-400 text-center italic">
+                Most popular choice
+              </p>
+              <div class="flex flex-col bg-gray-400 mt-5 p-6 relative">
+                <h3 class="absolute top-2 left-32 tex-2xl">$</h3>
+                <h1 class="font-bold text-5xl text-center">29</h1>
+                <p class="text-black text-left text-sm mt-10">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                </p>
+              </div>
+              <div class="divide-y divide-slate-200">
+                <div class="p-4 bg-white text-xl">15 Downloads</div>
+                <div class="p-4 bg-white text-xl">5 Extensions</div>
+                <div class="p-4 bg-white text-xl">Tutorials with Files</div>
+                <div class="p-4 bg-white text-xl">Forum Support</div>
+                <div class="p-4 bg-white text-xl">2 year frees updates</div>
+              </div>
+              <button
+                class="p-2 text-center w-36 h-10 h border border-black hover:border-yellow-200 mb-7"
+              >
+                BUY TODAY
+              </button>
+            </div>
+          </div>
+
+          <div
+            class="flex flex-col gap-8 shadow-md bg-white hover:border-8 hover:border-yellow-400"
+          >
+            <div>
+              <h3 class="text-center text-2xl p-4 font-bold">BUSINESS</h3>
+              <p class="text-sm text-slate-400 text-center italic">
+                For the whole team
+              </p>
+              <div class="flex flex-col bg-gray-400 mt-5 p-6 relative">
+                <h3 class="absolute top-2 left-32 tex-2xl">$</h3>
+                <h1 class="font-bold text-5xl text-center">49</h1>
+                <p class="text-black text-left text-sm mt-10">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                </p>
+              </div>
+              <div class="divide-y divide-slate-200">
+                <div class="p-4 bg-white text-xl">Unlimited Downloads</div>
+                <div class="p-4 bg-white text-xl">Unlimited Extensions</div>
+                <div class="p-4 bg-white text-xl">HD Video Tutorials</div>
+                <div class="p-4 bg-white text-xl">Chat Support</div>
+                <div class="p-4 bg-white text-xl">Lifetime free updates</div>
+              </div>
+              <button
+                class="p-2 text-center w-36 h-10 h border border-black hover:border-yellow-200 mb-7"
+              >
+                BUY TODAY
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer
+      class="max-w-6xl mx-auto flex flex-row justify-between items-center shadow-md bg-white relative"
+    >
+      <a
+        class="text-xl text-left text-slate-400 cursor-pointer"
+        href="https://"
+      >
+        Made with love by Femi Klever
+      </a>
+      <nav
+        class="flex justify-self-end text-sm space-x-4 items-center"
+        aria-label="social"
+      >
+        <a href="http://ww.facebook.com"
+          ><i class="fa-brands fa-facebook fa-xl"></i
+        ></a>
+        <a href="http://www.twitter.com"
+          ><i class="fa-brands fa-twitter fa-xl"></i
+        ></a>
+        <a href="http://www/instagram.com"
+          ><i class="fa-brands fa-instagram fa-xl"></i
+        ></a>
+      </nav>
+      <a
+        href="#about"
+        class="scroll-mt-40 z-50 fixed bottom-10 right-9 bg-slate-400 w-10 h-10"
+        ><i class="fa-solid fa-scroll fa-sm"></i
+      ></a>
+    </footer>
+  </body>
+</html>
